@@ -17,10 +17,10 @@ https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses
 ### Löschen eines Datasets in der Cloud Shell (Projekt setzen auf brain-jobber-test)
 
 ```
-gcloud config set project brain-jobber-tst
+gcloud config set project project-tst
 bq rm -r -f -d <datasetname aus liste>
 ```
-### Erstellen eines Datasets in der Cloud Shell (Projekt setzen auf brain-jobber-test)
+### Erstellen eines Datasets in der Cloud Shell (Projekt setzen auf project-test)
 
 ```
 gcloud config set project brain-jobber-tst
